@@ -13,6 +13,6 @@ int main(void)
 
         printf("Input:\n");
         yylex();
-        printf("\nCount of vowels=%d\nCount of consonants=%d",cvowel,ccons);
+        printf("\nCount of vowels=%d\nCount of consonants=%d\n",cvowel,ccons);
         return 0;
 }
