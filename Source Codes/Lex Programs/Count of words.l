@@ -10,7 +10,7 @@ int nword=0;
 int yywrap(){}
 int main()
 {
-  printf("Input one line:\n");
+  printf("Provide input:\n");
   yylex();
   printf("Count of words:%d\n", nword);
   return 0;
