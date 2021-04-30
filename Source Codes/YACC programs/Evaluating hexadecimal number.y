@@ -4,7 +4,7 @@
 %}
 %token bit
 %%
-G:E {printf("Hexadecimal number is %d\n",$$); 
+G:E {printf("It's value in decimal is %d\n",$$); 
      return 0;}
  ;
 E:E bit {$$=16*$1+$2;}
