@@ -4,7 +4,7 @@
 %}
 %token bit
 %%
-G:E {printf("Binary number is %d\n",$$); 
+G:E {printf("It's value in decimal is %d\n",$$); 
      return 0;}
  ;
 E:E bit {$$=2*$1+$2;}
